@@ -21,7 +21,7 @@ const phoneNumber = "2815153387";
 export default function Home() {
   return (
     <main className="mx-auto max-w-[430px] min-h-screen px-[0.5rem] flex flex-col bg-gray-900 text-gray-400">
-      <header className="grid place-content-center h-screen py-[1rem]">
+      <header id="top" className="grid place-content-center h-screen py-[1rem]">
         <h1
           className={`text-center text-6xl ${vastShadow.className} text-amber-500`}
         >
@@ -418,7 +418,18 @@ export default function Home() {
         </section>
       </div>
 
-      <div className="z-999 fixed inset-0 mx-auto max-w-[430px] h-screen pointer-events-none">
+      <a
+        href={`tel:${phoneNumber}`}
+        className="z-999 pointer-events-auto mx-auto flex flex-row gap-[0.25rem] items-center fixed bottom-6 right-3 py-[0.25rem] px-[0.75rem] rounded-full bg-green-600 hover:bg-green-500 text-gray-900"
+      >
+        <FontAwesomeIcon
+          icon={faPhone}
+          size="lg"
+          className="motion-safe:animate-wiggle"
+        />
+        <span className="font-bold text-xl">Order Pickup</span>
+      </a>
+      {/* <div className="z-999 fixed inset-0 mx-auto max-w-[430px] h-screen pointer-events-none">
         <a
           href={`tel:${phoneNumber}`}
           className="pointer-events-auto mx-auto flex flex-row gap-[0.25rem] items-center absolute bottom-6 right-3 py-[0.25rem] px-[0.75rem] rounded-full bg-green-600 hover:bg-green-500 text-gray-900"
@@ -430,7 +441,7 @@ export default function Home() {
           />
           <span className="font-bold text-xl">Order Pickup</span>
         </a>
-      </div>
+      </div> */}
     </main>
   );
 }
