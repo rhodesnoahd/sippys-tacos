@@ -26,6 +26,22 @@
   }
 }
 
+@layer utilities {
+
+  /* Chrome, Safari, Edge, and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Firefox, IE, and Edge (older versions) */
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;

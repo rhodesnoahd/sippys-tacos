@@ -105,7 +105,7 @@ export default function Home() {
                   </tr>
                 </tbody>
               </table>
-              <div className="snap-x snap-mandatory flex flex-row gap-6 overflow-x-auto whitespace-nowrap">
+              <div className="no-scrollbar snap-x snap-mandatory flex flex-row gap-6 overflow-x-auto whitespace-nowrap">
                 <div className="ml-[82px] snap-center w-[250px]">
                   <div className="relative h-96 rounded-t-lg overflow-hidden">
                     <Image
@@ -225,7 +225,7 @@ export default function Home() {
                 choice of meat &bull; beans &bull; lettuce &bull; tomato &bull;
                 avocado &bull; sour cream cheese
               </p>
-              <div className="snap-x snap-mandatory flex flex-row gap-6 overflow-x-auto whitespace-nowrap">
+              <div className="no-scrollbar snap-x snap-mandatory flex flex-row gap-6 overflow-x-auto whitespace-nowrap">
                 <div className="ml-[82px] snap-center w-[250px]">
                   <div className="relative h-96 rounded-t-lg overflow-hidden">
                     <Image
