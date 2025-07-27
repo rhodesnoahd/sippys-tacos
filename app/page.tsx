@@ -418,7 +418,7 @@ export default function Home() {
         </section>
       </div>
 
-      <a
+      {/* <a
         href={`tel:${phoneNumber}`}
         className="z-999 pointer-events-auto mx-auto flex flex-row gap-[0.25rem] items-center fixed bottom-6 right-3 py-[0.25rem] px-[0.75rem] rounded-full bg-green-600 hover:bg-green-500 text-gray-900"
       >
@@ -428,11 +428,14 @@ export default function Home() {
           className="motion-safe:animate-wiggle"
         />
         <span className="font-bold text-xl">Order Pickup</span>
-      </a>
-      {/* <div className="z-999 fixed inset-0 mx-auto max-w-[430px] h-screen pointer-events-none">
+      </a> */}
+      <div className="z-999 fixed inset-0 mx-auto max-w-[430px] h-screen pointer-events-none">
         <a
           href={`tel:${phoneNumber}`}
           className="pointer-events-auto mx-auto flex flex-row gap-[0.25rem] items-center absolute bottom-6 right-3 py-[0.25rem] px-[0.75rem] rounded-full bg-green-600 hover:bg-green-500 text-gray-900"
+          style={{
+            bottom: "calc(env(safe-area-inset-bottom, 0px) + 1.5rem)",
+          }}
         >
           <FontAwesomeIcon
             icon={faPhone}
@@ -441,7 +444,7 @@ export default function Home() {
           />
           <span className="font-bold text-xl">Order Pickup</span>
         </a>
-      </div> */}
+      </div>
     </main>
   );
 }
