@@ -73,12 +73,12 @@ export default function Home() {
                     <th colSpan={2}>choice of meat | cilantro | onions</th>
                   </tr>
                   <tr>
-                    <td className="pr-2">corn tortilla</td>
-                    <td>$2.50 per taco</td>
+                    <td className="pr-2 w-1/2">corn tortilla</td>
+                    <td className="w-1/2">$2.50 per taco</td>
                   </tr>
                   <tr>
-                    <td className="pr-2">flour tortilla</td>
-                    <td>$3.00 per taco</td>
+                    <td className="pr-2 w-1/2">flour tortilla</td>
+                    <td className="w-1/2">$3.00 per taco</td>
                   </tr>
                 </tbody>
               </table>
@@ -88,16 +88,16 @@ export default function Home() {
                     <th colSpan={2}>extras</th>
                   </tr>
                   <tr>
-                    <td className="pr-2">add cheese</td>
-                    <td>$0.25 per taco</td>
+                    <td className="pr-2 w-1/2">add cheese</td>
+                    <td className="w-1/2">$0.25 per taco</td>
                   </tr>
                   <tr>
-                    <td className="pr-2">add avocado</td>
-                    <td>$0.50 per taco</td>
+                    <td className="pr-2 w-1/2">add avocado</td>
+                    <td className="w-1/2">$0.50 per taco</td>
                   </tr>
                   <tr>
-                    <td className="pr-2">add sour cream</td>
-                    <td>$0.25 per taco</td>
+                    <td className="pr-2 w-1/2">add sour cream</td>
+                    <td className="w-1/2">$0.25 per taco</td>
                   </tr>
                 </tbody>
               </table>
