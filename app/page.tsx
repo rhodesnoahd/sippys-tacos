@@ -418,19 +418,8 @@ export default function Home() {
         </section>
       </div>
 
-      {/* <a
-        href={`tel:${phoneNumber}`}
-        className="z-999 pointer-events-auto mx-auto flex flex-row gap-[0.25rem] items-center fixed bottom-6 right-3 py-[0.25rem] px-[0.75rem] rounded-full bg-green-600 hover:bg-green-500 text-gray-900"
-      >
-        <FontAwesomeIcon
-          icon={faPhone}
-          size="lg"
-          className="motion-safe:animate-wiggle"
-        />
-        <span className="font-bold text-xl">Order Pickup</span>
-      </a> */}
       <div className="fixed bottom-0 left-0 right-0 z-50 pointer-events-none px-4">
-        <div className="relative mx-auto max-w-[430px] w-full justify-items-end">
+        <div className="flex flex-row relative mx-auto max-w-[430px] w-full align-start justify-end">
           <a
             href={`tel:${phoneNumber}`}
             className="pointer-events-auto w-max flex flex-row gap-1 items-center mb-6 py-1 px-3 rounded-full bg-green-600 hover:bg-green-500 text-gray-900"
