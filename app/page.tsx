@@ -71,26 +71,24 @@ export default function Home() {
 
       <div className="flex flex-col gap-6">
         <section id="menu" className="mb-6">
-          <h2 className="text-3xl font-bold">Menu</h2>
+          <h2 className="text-center text-3xl font-bold">Our Menu</h2>
           <ul className="flex flex-col gap-4">
             <div className="flex flex-col gap-2">
               <li className="z-10 sticky top-0 w-full text-center text-xl font-bold bg-gray-900">
                 Tacos
               </li>
+              <p className="text-center font-normal italic">
+                choice of meat &bull; cilantro &bull; onions
+              </p>
               <table>
                 <tbody>
                   <tr>
-                    <th colSpan={2} className="font-normal italic">
-                      choice of meat &bull; cilantro &bull; onions
-                    </th>
+                    <td className="pr-2 w-1/2 text-right">corn tortilla</td>
+                    <td className="w-1/2 text-left">$2.50 / taco</td>
                   </tr>
                   <tr>
-                    <td className="pr-2 w-1/2 text-center">corn tortilla</td>
-                    <td className="w-1/2 text-center">$2.50 per taco</td>
-                  </tr>
-                  <tr>
-                    <td className="pr-2 w-1/2 text-center">flour tortilla</td>
-                    <td className="w-1/2 text-center">$3.00 per taco</td>
+                    <td className="pr-2 w-1/2 text-right">flour tortilla</td>
+                    <td className="w-1/2 text-left">$3.00 / taco</td>
                   </tr>
                 </tbody>
               </table>
@@ -102,16 +100,16 @@ export default function Home() {
                     </th>
                   </tr>
                   <tr>
-                    <td className="pr-2 w-1/2 text-center">add cheese</td>
-                    <td className="w-1/2 text-center">$0.25 per taco</td>
+                    <td className="pr-2 w-1/2 text-right">cheese</td>
+                    <td className="w-1/2 text-left">25&cent; / taco</td>
                   </tr>
                   <tr>
-                    <td className="pr-2 w-1/2 text-center">add avocado</td>
-                    <td className="w-1/2 text-center">$0.50 per taco</td>
+                    <td className="pr-2 w-1/2 text-right">avocado</td>
+                    <td className="w-1/2 text-left">50&cent; / taco</td>
                   </tr>
                   <tr>
-                    <td className="pr-2 w-1/2 text-center">add sour cream</td>
-                    <td className="w-1/2 text-center">$0.25 per taco</td>
+                    <td className="pr-2 w-1/2 text-right">sour cream</td>
+                    <td className="w-1/2 text-left">25&cent; / taco</td>
                   </tr>
                 </tbody>
               </table>
@@ -372,7 +370,7 @@ export default function Home() {
           </table>
         </section>
 
-        <section id="contact" className="pb-[1rem]">
+        <section id="contact" className="mb-[42px]">
           <h2 className="text-3xl font-bold">Contact Us</h2>
           <div>
             <span>
