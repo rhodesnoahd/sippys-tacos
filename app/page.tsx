@@ -4,6 +4,7 @@ import {
   faPhone,
   faLocationDot,
   faClock,
+  faUtensils,
 } from "@fortawesome/free-solid-svg-icons";
 import { faSquareFacebook } from "@fortawesome/free-brands-svg-icons";
 import { Vast_Shadow } from "next/font/google";
@@ -20,13 +21,22 @@ const phoneNumber = "2815153387";
 export default function Home() {
   return (
     <main className="mx-auto max-w-[430px] min-h-screen px-[0.5rem] flex flex-col bg-gray-900 text-gray-400">
-      <header className="py-[1rem]">
+      <header className="grid place-content-center h-screen py-[1rem]">
         <h1
-          className={`text-center text-4xl ${vastShadow.className} text-amber-500`}
+          className={`text-center text-6xl ${vastShadow.className} text-amber-500`}
         >
           Sippy&apos;s Tacos <span className="whitespace-nowrap">& More</span>
         </h1>
         <ul className="flex flex-row flex-wrap justify-center text-lg">
+          <li>
+            <Link
+              className="p-1 flex flex-row items-center hover:underline"
+              href="#menu"
+            >
+              <FontAwesomeIcon icon={faUtensils} className="pr-[1px]" />
+              menu
+            </Link>
+          </li>
           <li>
             <a
               className="p-1 flex flex-row items-center hover:underline"
@@ -60,7 +70,7 @@ export default function Home() {
       </header>
 
       <div className="flex flex-col gap-6">
-        <section id="menu">
+        <section id="menu" className="mb-6">
           <h2 className="text-3xl font-bold">Menu</h2>
           <ul className="flex flex-col gap-4">
             <div className="flex flex-col gap-2">
