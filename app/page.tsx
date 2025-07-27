@@ -26,7 +26,7 @@ export default function Home() {
         >
           Sippy&apos;s Tacos <span className="whitespace-nowrap">& More</span>
         </h1>
-        <ul className="flex flex-row justify-center text-lg">
+        <ul className="flex flex-row flex-wrap justify-center text-lg">
           <li>
             <a
               className="p-1 flex flex-row items-center hover:underline"
