@@ -331,6 +331,84 @@ export default function Home() {
               </p>
               <p className="text-center font-normal">with fries $11</p>
             </div>
+
+            <div className="flex flex-col gap-2">
+              <li className="z-10 sticky top-0 w-full text-center font-bold text-xl bg-gray-900">
+                Meat Options
+              </li>
+              <ul className="text-center">
+                <li>beef fajita</li>
+                <li>chicken</li>
+                <li>barbacoa</li>
+                <li>bistec</li>
+                <li>al pastor</li>
+                <li>*tripa</li>
+              </ul>
+              <p className="text-center font-normal italic">
+                *tripa is an extra 50&cent; / taco & extra $1 on all other menu
+                items
+              </p>
+            </div>
+
+            <div className="flex flex-col gap-2">
+              <li className="z-10 sticky top-0 w-full text-center text-xl font-bold bg-gray-900">
+                Drinks
+              </li>
+              <table>
+                <tbody>
+                  <tr>
+                    <td className="pr-2 w-1/2 text-right">mexican coke</td>
+                    <td className="w-1/2 text-left">$3</td>
+                  </tr>
+                  <tr>
+                    <td className="pr-2 w-1/2 text-right">jarritos</td>
+                    <td className="w-1/2 text-left">$2</td>
+                  </tr>
+                  <tr>
+                    <td className="pr-2 w-1/2 text-right">topo chico</td>
+                    <td className="w-1/2 text-left">$2</td>
+                  </tr>
+                  <tr>
+                    <td className="pr-2 w-1/2 text-right">agua fresca 32oz</td>
+                    <td className="w-1/2 text-left">$4</td>
+                  </tr>
+                  <tr>
+                    <td className="pr-2 w-1/2 text-right">soda in a can</td>
+                    <td className="w-1/2 text-left">$1</td>
+                  </tr>
+                  <tr>
+                    <td className="pr-2 w-1/2 text-right">
+                      bottled water 16oz
+                    </td>
+                    <td className="w-1/2 text-left">$1</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div className="flex flex-col gap-2">
+              <li className="z-10 sticky top-0 w-full text-center text-xl font-bold bg-gray-900">
+                Sides
+              </li>
+              <table>
+                <tbody>
+                  <tr>
+                    <td className="pr-2 w-1/2 text-right">
+                      frijoles charros 8oz
+                    </td>
+                    <td className="w-1/2 text-left">$2</td>
+                  </tr>
+                  <tr>
+                    <td className="pr-2 w-1/2 text-right">fries</td>
+                    <td className="w-1/2 text-left">$3</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p className="text-center italic">
+              We accept cash and card payments.
+            </p>
           </ul>
         </section>
 
