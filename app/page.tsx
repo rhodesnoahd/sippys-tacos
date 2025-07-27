@@ -410,10 +410,10 @@ export default function Home() {
         </section>
       </div>
 
-      <div className="z-999 fixed inset-0 mx-auto max-w-[430px] h-screen">
+      <div className="z-999 fixed inset-0 mx-auto max-w-[430px] h-screen pointer-events-none">
         <a
           href={`tel:${phoneNumber}`}
-          className="mx-auto flex flex-row gap-[0.25rem] items-center absolute bottom-6 right-3 py-[0.25rem] px-[0.75rem] rounded-full bg-green-600 hover:bg-green-500 text-gray-900"
+          className="pointer-events-auto mx-auto flex flex-row gap-[0.25rem] items-center absolute bottom-6 right-3 py-[0.25rem] px-[0.75rem] rounded-full bg-green-600 hover:bg-green-500 text-gray-900"
         >
           <FontAwesomeIcon
             icon={faPhone}
