@@ -64,45 +64,49 @@ export default function Home() {
           <h2 className="text-3xl font-bold">Menu</h2>
           <ul className="flex flex-col gap-4">
             <div className="flex flex-col gap-2">
-              <li className="z-10 sticky top-0 w-full text-xl bg-gray-900">
+              <li className="z-10 sticky top-0 w-full text-center text-xl font-bold bg-gray-900">
                 Tacos
               </li>
               <table>
                 <tbody>
                   <tr>
-                    <th colSpan={2}>choice of meat | cilantro | onions</th>
+                    <th colSpan={2} className="font-normal italic">
+                      choice of meat &bull; cilantro &bull; onions
+                    </th>
                   </tr>
                   <tr>
-                    <td className="pr-2 w-1/2">corn tortilla</td>
-                    <td className="w-1/2">$2.50 per taco</td>
+                    <td className="pr-2 w-1/2 text-center">corn tortilla</td>
+                    <td className="w-1/2 text-center">$2.50 per taco</td>
                   </tr>
                   <tr>
-                    <td className="pr-2 w-1/2">flour tortilla</td>
-                    <td className="w-1/2">$3.00 per taco</td>
+                    <td className="pr-2 w-1/2 text-center">flour tortilla</td>
+                    <td className="w-1/2 text-center">$3.00 per taco</td>
                   </tr>
                 </tbody>
               </table>
               <table>
                 <tbody>
                   <tr>
-                    <th colSpan={2}>extras</th>
+                    <th colSpan={2} className="font-normal italic">
+                      extras
+                    </th>
                   </tr>
                   <tr>
-                    <td className="pr-2 w-1/2">add cheese</td>
-                    <td className="w-1/2">$0.25 per taco</td>
+                    <td className="pr-2 w-1/2 text-center">add cheese</td>
+                    <td className="w-1/2 text-center">$0.25 per taco</td>
                   </tr>
                   <tr>
-                    <td className="pr-2 w-1/2">add avocado</td>
-                    <td className="w-1/2">$0.50 per taco</td>
+                    <td className="pr-2 w-1/2 text-center">add avocado</td>
+                    <td className="w-1/2 text-center">$0.50 per taco</td>
                   </tr>
                   <tr>
-                    <td className="pr-2 w-1/2">add sour cream</td>
-                    <td className="w-1/2">$0.25 per taco</td>
+                    <td className="pr-2 w-1/2 text-center">add sour cream</td>
+                    <td className="w-1/2 text-center">$0.25 per taco</td>
                   </tr>
                 </tbody>
               </table>
               <div className="snap-x snap-mandatory flex flex-row gap-6 overflow-x-auto whitespace-nowrap">
-                <div className="ml-[180px] snap-center w-[250px]">
+                <div className="ml-[82px] snap-center w-[250px]">
                   <div className="relative h-96 rounded-t-lg overflow-hidden">
                     <Image
                       src="/img/download (2).jpg"
@@ -128,7 +132,7 @@ export default function Home() {
                     chicken tacos
                   </p>
                 </div>
-                <div className="mr-[180px] snap-center w-[250px]">
+                <div className="mr-[82px] snap-center w-[250px]">
                   <div className="relative h-96 rounded-t-lg overflow-hidden">
                     <Image
                       src="/img/download (7).jpg"
@@ -145,20 +149,22 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col gap-2">
-              <li className="z-10 sticky top-0 w-full text-xl bg-gray-900">
+              <li className="z-10 sticky top-0 w-full text-center text-xl font-bold bg-gray-900">
                 Tostadas / $3.50
               </li>
-              <p className="font-bold">
-                choice of meat | beans | lettuce | tomato | cheese
+              <p className="text-center font-normal italic">
+                choice of meat &bull; beans &bull; lettuce &bull; tomato &bull;
+                cheese
               </p>
             </div>
 
             <div className="flex flex-col gap-2">
-              <li className="z-10 sticky top-0 w-full text-xl bg-gray-900">
+              <li className="z-10 sticky top-0 w-full text-center font-bold text-xl bg-gray-900">
                 Gorditas / $5
               </li>
-              <p className="font-bold">
-                choice of meat | beans | lettuce | tomato | cheese
+              <p className="text-center font-normal italic">
+                choice of meat &bull; beans &bull; lettuce &bull; tomato &bull;
+                cheese
               </p>
               <div className="m-auto gap-6 overflow-x-auto whitespace-nowrap">
                 <div className="w-[250px]">
@@ -178,19 +184,22 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col gap-2">
-              <li className="z-10 sticky top-0 w-full text-xl bg-gray-900">
+              <li className="z-10 sticky top-0 w-full text-center font-bold text-xl bg-gray-900">
                 Sopes / $5
               </li>
-              <p className="font-bold">
-                choice of meat | beans | lettuce | tomato | queso fresco | crema
+              <p className="text-center font-normal italic">
+                choice of meat &bull; beans &bull; lettuce &bull; tomato &bull;
+                queso fresco &bull; crema
               </p>
             </div>
 
             <div className="flex flex-col gap-2">
-              <li className="z-10 sticky top-0 w-full text-xl bg-gray-900">
+              <li className="z-10 sticky top-0 w-full text-center font-bold text-xl bg-gray-900">
                 Quesadilla / $8
               </li>
-              <p className="font-bold">choice of meat | cheese</p>
+              <p className="text-center font-normal italic">
+                choice of meat &bull; cheese
+              </p>
               <div className="m-auto gap-6 overflow-x-auto whitespace-nowrap">
                 <div className="w-[250px]">
                   <div className="relative h-96 rounded-t-lg overflow-hidden">
@@ -209,15 +218,15 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col gap-2">
-              <li className="z-10 sticky top-0 w-full text-xl bg-gray-900">
+              <li className="z-10 sticky top-0 w-full text-center font-bold text-xl bg-gray-900">
                 Burrito / $9
               </li>
-              <p className="font-bold">
-                choice of meat | beans | lettuce | tomato | avocado | sour cream
-                cheese
+              <p className="text-center font-normal italic">
+                choice of meat &bull; beans &bull; lettuce &bull; tomato &bull;
+                avocado &bull; sour cream cheese
               </p>
               <div className="snap-x snap-mandatory flex flex-row gap-6 overflow-x-auto whitespace-nowrap">
-                <div className="ml-[180px] snap-center w-[250px]">
+                <div className="ml-[82px] snap-center w-[250px]">
                   <div className="relative h-96 rounded-t-lg overflow-hidden">
                     <Image
                       src="/img/download (3).jpg"
@@ -230,7 +239,7 @@ export default function Home() {
                     chicken burrito
                   </p>
                 </div>
-                <div className="mr-[180px] snap-center w-[250px]">
+                <div className="mr-[82px] snap-center w-[250px]">
                   <div className="relative h-96 rounded-t-lg overflow-hidden">
                     <Image
                       src="/img/download (4).jpg"
@@ -247,11 +256,12 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col gap-2">
-              <li className="z-10 sticky top-0 w-full text-xl bg-gray-900">
+              <li className="z-10 sticky top-0 w-full text-center font-bold text-xl bg-gray-900">
                 Cheeseburger / $8
               </li>
-              <p className="font-bold">
-                mayo | mustard | lettuce | tomato | pickles | onion | cheese
+              <p className="text-center font-normal italic">
+                mayo &bull; mustard &bull; lettuce &bull; tomato &bull; pickles
+                &bull; onion &bull; cheese
               </p>
               <div className="m-auto gap-6 overflow-x-auto whitespace-nowrap">
                 <div className="w-[250px]">
@@ -271,46 +281,47 @@ export default function Home() {
             </div>
 
             <div className="flex flex-col gap-2">
-              <li className="z-10 sticky top-0 w-full text-xl bg-gray-900">
+              <li className="z-10 sticky top-0 w-full text-center font-bold text-xl bg-gray-900">
                 Torta / $8
               </li>
-              <p className="font-bold">
-                choice of meat | beans | lettuce | tomato | avocado | mayo |
-                cheese
+              <p className="text-center font-normal italic">
+                choice of meat &bull; beans &bull; lettuce &bull; tomato &bull;
+                avocado &bull; mayo &bull; cheese
               </p>
-              <p className="font-bold">with fries $10</p>
+              <p className="text-center font-normal">with fries $10</p>
             </div>
 
             <div className="flex flex-col gap-2">
-              <li className="z-10 sticky top-0 w-full text-xl bg-gray-900">
+              <li className="z-10 sticky top-0 w-full text-center font-bold text-xl bg-gray-900">
                 Torta Cubana / $9
               </li>
-              <p className="font-bold">
-                beef fajita | ham | sausage | cheese | beans | lettuce | tomato
-                | mayo | avocado
+              <p className="text-center font-normal italic">
+                beef fajita &bull; ham &bull; sausage &bull; cheese &bull; beans
+                &bull; lettuce &bull; tomato &bull; mayo &bull; avocado
               </p>
-              <p className="font-bold">with fries $11</p>
+              <p className="text-center font-normal">with fries $11</p>
             </div>
 
             <div className="flex flex-col gap-2">
-              <li className="z-10 sticky top-0 w-full text-xl bg-gray-900">
+              <li className="z-10 sticky top-0 w-full text-center font-bold text-xl bg-gray-900">
                 Torta Campechana / $9
               </li>
-              <p className="font-bold">
-                bistec | chorizo | sausage | cheese | beans | lettuce | mayo |
-                avocado
+              <p className="text-center font-normal italic">
+                bistec &bull; chorizo &bull; sausage &bull; cheese &bull; beans
+                &bull; lettuce &bull; mayo &bull; avocado
               </p>
-              <p className="font-bold">with fries $11</p>
+              <p className="text-center font-normal">with fries $11</p>
             </div>
 
             <div className="flex flex-col gap-2">
-              <li className="z-10 sticky top-0 w-full text-xl bg-gray-900">
+              <li className="z-10 sticky top-0 w-full text-center font-bold text-xl bg-gray-900">
                 Torta Hawaiana
               </li>
-              <p className="font-bold">
-                al pastor | ham | cheese | pineapple | avocado
+              <p className="text-center font-normal italic">
+                al pastor &bull; ham &bull; cheese &bull; pineapple &bull;
+                avocado
               </p>
-              <p className="font-bold">with fries $11</p>
+              <p className="text-center font-normal">with fries $11</p>
             </div>
           </ul>
         </section>
